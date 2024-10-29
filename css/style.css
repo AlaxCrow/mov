@@ -20,30 +20,18 @@ h2{
     text-align: center;
 }
 form{
-    margin:  10px;
+    margin:  3px;
     padding: 10px;
-    border: 1px solid #333;
-    border-radius: 20px;
     background-color: white;
-    display: flex;
-}
-form input#pesquisa{
-    width: 300px;
-    padding: 10px;
-    border:none;
-    outline: none;
-    flex: 1;
-}
+} 
 
-form button {
+.btn {
     padding: 5px 15px;
     background-color: rgb(32, 32, 39);
     color: white;
 }
 
 div.lista{
-    margin-top: 10px;
-    padding: 5px;
     display: flex;
     flex-wrap: wrap;
 }
