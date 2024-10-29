@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(32, 32, 39);
+}
+
+h1{
+    background-color: gold;
+    padding: 20px;
+    text-align: left;
+}
+h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+form{
+    margin:  10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+}
+form input#pesquisa{
+    width: 300px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    flex: 1;
+}
+
+form button {
+    padding: 5px 15px;
+    background-color: rgb(32, 32, 39);
+    color: white;
+}
+
+div.lista{
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.item{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid gold;
+}
+
+div.item:hover {
+    background-color: rgb(163, 141, 17);
+    cursor: pointer;
+}
+
+div.item img{
+    width: 200px;
+    height: 300px;
+}
